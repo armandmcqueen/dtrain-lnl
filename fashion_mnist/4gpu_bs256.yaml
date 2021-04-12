@@ -1,0 +1,15 @@
+description: fashion_mnist_tf_keras_const
+hyperparameters:
+  global_batch_size: 256
+  lr: 0.008
+  dense1: 128
+records_per_epoch: 60000
+resources:
+  slots_per_trial: 4
+searcher:
+  name: single
+  metric: val_accuracy
+  smaller_is_better: false
+  max_length:
+    epochs: 5
+entrypoint: model_def:FashionMNISTTrial
