@@ -56,6 +56,10 @@ By training with the fast.yaml configuration. Make sure you are in the `cifar10_
 det e create -f fast.yaml .
 ```
 
+You should see training logs start to appear in your terminal. The experiment should also appear in the Experiment list in the WebUI.
+
+You can filter the WebUI to only show experiments that you created.
+
 #### Explanation of the above command
 
 This is creating an experiment. It is uploading all code in the current directory (most importantly the `model_def.py`). It is configuring the experiment with the `fast.yaml` experiment configuration, which runs training very briefly. The `-f` flag tells the CLI to tail the logs once the experiment has begun. 
