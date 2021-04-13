@@ -1,5 +1,5 @@
 # Validation Accuracy = 74%
-description: cifar10_pytorch_1gpu_bs32
+description: cifar10_pytorch_fast
 resources:
   slots_per_trial: 1
   resource_pool: k80-east-1a
