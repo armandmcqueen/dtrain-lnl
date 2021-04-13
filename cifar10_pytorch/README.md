@@ -2,8 +2,11 @@
 
 - We will be trying to speed up this CIFAR-10 CNN
 - There is a known good configuration in `1gpu.yaml`
+- This trains in about 20 minutes
 - The target validation accuracy is 74%
 
+
+Can we get it under a minute?
 
 ---
 
